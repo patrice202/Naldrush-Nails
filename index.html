@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naldrush Nails — Onglerie</title>
+  <meta name="description" content="Naldrush Nails — manucure, pose gel et nail art. Découvrez nos modèles et prenez rendez-vous en ligne.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- ================= EN-TETE ================= -->
+  <header>
+    <a class="logo" href="#accueil">Naldrush <span>Nails</span></a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-or js-book" href="#" target="_blank" rel="noopener">Réserver</a>
+  </header>
+ 
+  <!-- ================= ACCUEIL ================= -->
+  <section class="hero" id="accueil">
+    <div class="hero-voile"></div>
+    <div class="hero-contenu">
+      <p class="manuscrit">Bienvenue chez</p>
+      <h1>Naldrush Nails</h1>
+      <p class="hero-texte">L'art des ongles, en toute élégance.</p>
+      <div class="hero-boutons">
+        <a class="btn btn-or btn-brille js-book" href="#" target="_blank" rel="noopener">Prendre rendez-vous</a>
+        <a class="btn btn-clair" href="#services">Découvrir les services</a>
+      </div>
+    </div>
+    <span class="etoile e1">✦</span>
+    <span class="etoile e2">✦</span>
+    <span class="etoile e3">✦</span>
+  </section>
+ 
+  <!-- ================= RUBAN ================= -->
+  <div class="ruban" aria-hidden="true">
+    <div class="ruban-piste">
+      <span>Manucure ✦ Pose gel ✦ Nail art ✦ Beauté des pieds ✦ Remplissage ✦ Soin des ongles ✦&nbsp;</span>
+      <span>Manucure ✦ Pose gel ✦ Nail art ✦ Beauté des pieds ✦ Remplissage ✦ Soin des ongles ✦&nbsp;</span>
+    </div>
+  </div>
+ 
+  <!-- ================= SERVICES ================= -->
+  <section id="services" class="reveal">
+    <p class="manuscrit petit">Nos prestations</p>
+    <h2>Services &amp; Prix</h2>
+    <div id="liste-services" class="services-grille"></div>
+    <p class="note-centre">Un doute, une envie particulière ? <a class="js-wa" href="#" target="_blank" rel="noopener">Écrivez-nous sur WhatsApp</a>.</p>
+  </section>
+ 
+  <!-- ================= GALERIE ================= -->
+  <section id="galerie" class="reveal">
+    <p class="manuscrit petit">Nos créations</p>
+    <h2>Galerie de modèles</h2>
+    <p class="note-centre">Faites défiler, touchez une photo pour la voir en grand — et trouvez le modèle de votre prochain rendez-vous.</p>
+    <div class="vitrine-wrap">
+      <button class="vitrine-fleche" onclick="glisserVitrine(-1)">‹</button>
+      <div id="vitrine" class="vitrine"></div>
+      <button class="vitrine-fleche" onclick="glisserVitrine(1)">›</button>
+    </div>
+    <h3 id="modele-nom" class="modele-nom"></h3>
+  </section>
+ 
+  <!-- ================= AVIS ================= -->
+  <section id="avis" class="reveal">
+    <p class="manuscrit petit">Elles nous aiment</p>
+    <h2>Avis des clientes</h2>
+    <div class="avis-grille">
+      <article class="avis-carte">
+        <p class="etoiles">★★★★★</p>
+        <p>« Travail impeccable, mes ongles tiennent des semaines. L'accueil est adorable, je ne vais plus ailleurs ! »</p>
+        <p class="avis-nom">— Cliente fidèle</p>
+      </article>
+      <article class="avis-carte">
+        <p class="etoiles">★★★★★</p>
+        <p>« La pose gel est magnifique et très naturelle. On sent le souci du détail du début à la fin. »</p>
+        <p class="avis-nom">— Cliente fidèle</p>
+      </article>
+      <article class="avis-carte">
+        <p class="etoiles">★★★★★</p>
+        <p>« Réservation facile, jamais d'attente, et un nail art exactement comme la photo que j'avais apportée. »</p>
+        <p class="avis-nom">— Cliente fidèle</p>
+      </article>
+    </div>
+  </section>
+ 
+  <!-- ================= CONTACT & HORAIRES ================= -->
+  <section id="contact" class="reveal">
+    <p class="manuscrit petit">Nous trouver</p>
+    <h2>Horaires &amp; Contact</h2>
+    <div class="contact-grille">
+      <div class="contact-carte">
+        <h3>Horaires d'ouverture</h3>
+        <ul class="horaires">
+          <li><span>Lundi — Vendredi</span><strong>9 h – 19 h</strong></li>
+          <li><span>Samedi</span><strong>9 h – 17 h</strong></li>
+          <li><span>Dimanche</span><strong>Fermé</strong></li>
+        </ul>
+        <p class="note">Rendez-vous en ligne, selon les disponibilités du moment.</p>
+      </div>
+      <div class="contact-carte">
+        <h3>Nous joindre</h3>
+        <p>Gonaïves et les environs — adresse exacte confirmée à la réservation.</p>
+        <p><a class="btn btn-or js-book" href="#" target="_blank" rel="noopener">Prendre rendez-vous</a></p>
+        <p><a class="btn btn-clair js-wa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+           <a class="btn btn-clair js-insta" href="#" target="_blank" rel="noopener">Instagram</a></p>
+      </div>
+    </div>
+  </section>
+ 
+  <footer>
+    <p class="logo-pied">Naldrush <span>Nails</span></p>
+    <p>Manucure · Pose gel · Nail art — avec soin et élégance.</p>
+    <p>© <span id="annee"></span> Naldrush Nails. Tous droits réservés.</p>
+  </footer>
+ 
+  <!-- Visionneuse photo -->
+  <div id="visionneuse" class="visionneuse hidden">
+    <button id="visionneuse-fermer" aria-label="Fermer">×</button>
+    <img id="visionneuse-img" src="" alt="">
+    <p id="visionneuse-legende"></p>
+  </div>
+ 
+  <!-- Bouton WhatsApp flottant -->
+  <a class="wa-flottant js-wa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+ 
+  <script src="services.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
